@@ -11,9 +11,10 @@ public class Recursion
 		do {
 			System.out.println ("Enter a number to find it's square root:");
 			sqrt1 = in.nextDouble();
+
 			if (sqrt1 <= 0)
 			{
-				System.out.println(" The number  should be greater than 0");
+				System.out.println(" The number should be greater than 0.");
 			}
 		} while (sqrt1 <= 0);
 // Inserted another  do while loop to enter any number for an error, but it must be less than 0
